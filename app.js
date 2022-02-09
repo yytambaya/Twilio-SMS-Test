@@ -20,7 +20,7 @@ app.post('/', (req, res) => {
     twiml.message('Goodbye');
   } else {
     twiml.message(
-      'No Body param match, Twilio sends this in the request to your server.'
+      'It is Twilio server'
     );
   }
 
