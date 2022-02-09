@@ -8,6 +8,9 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.get('/', (req, res) => {
+  res.send("Welcome to Twilio SMS Test")
+})
 app.post('/', (req, res) => {
   const twiml = new MessagingResponse();
 
