@@ -17,7 +17,7 @@ const hausaFailMessage = 'Wannan Iri ba daga IAR-Samaru ba ne, Irin Boge ne.';
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
-  res.send("Welcome to Twilio SMS Test")
+  res.send("Welcome to Twilio SMS Test V2")
 })
 
 
